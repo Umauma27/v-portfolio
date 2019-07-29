@@ -128,16 +128,19 @@ export default {
     return {
       items: [
         {
-          src: "img/slideImg1.jpg"
+          src: "img/slideImg1.png"
         },
         {
-          src: "img/slideImg2.jpg"
+          src: "img/slideImg2.png"
         },
         {
-          src: "img/slideImg3.jpg"
+          src: "img/slideImg3.png"
         },
         {
-          src: "img/slideImg4.jpg"
+          src: "img/slideImg4.png"
+        },
+        {
+          src: "img/slideImg5.png"
         }
       ]
     };
