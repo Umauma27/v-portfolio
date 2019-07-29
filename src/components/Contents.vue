@@ -104,9 +104,9 @@
         </v-layout>
       </v-flex>
 
-      <v-flex xs10 md8 mb-5>
+      <v-flex xs12 md8 mb-5>
         <h1 class="contentsTitle">Works</h1>
-        <v-flex offset-xs2>
+        <v-flex offset-md5>
           <v-carousel cycle>
             <v-carousel-item
               v-for="(item,i) in items"
