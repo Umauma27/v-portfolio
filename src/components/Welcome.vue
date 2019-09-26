@@ -17,19 +17,19 @@
     <v-layout text-center wrap>
       <v-flex mb-4 xs12>
         <h2 class="display-2 font-weight-bold mb-3 welcomeMessage"></h2>
-       <!-- Dont  format on save  or other text editor -->
-       <vue-typer
-          :text='["Hello World!","Welcome to Yuma Shimizu’s Portfolio","Let’s Mouse down!!"]'
-          :repeat='Infinity'
-          :shuffle='false'
-          initial-action='typing'
-          :pre-type-delay='70'
-          :type-delay='70'
-          :pre-erase-delay='2000'
-          :erase-delay='250'
-          erase-style='select-all'
-          :erase-on-complete='false'
-          caret-animation='blink'
+        <!-- Dont  format on save  or other text editor -->
+        <vue-typer
+          :text="["Hello World!","Welcome to Yuma Shimizu’s Portfolio","Let’s Mouse down!!"]"
+          :repeat="Infinity"
+          :shuffle="false"
+          initial-action="typing"
+          :pre-type-delay="70"
+          :type-delay="70"
+          :pre-erase-delay="2000"
+          :erase-delay="250"
+          erase-style="select-all"
+          :erase-on-complete="false"
+          caret-animation="blink"
         ></vue-typer>
         <p class="subheading font-weight-regular"></p>
         <h2 class="welcomeIconWrapper">
@@ -64,9 +64,8 @@ a {
 }
 
 .vue-typer .custom.char.typed {
-  color: #41B883;
+  color: #41b883;
 }
-
 
 .context {
   width: 100%;
@@ -81,7 +80,7 @@ a {
   .welcomeIcon {
     font-size: 6rem;
     animation: disappear 1s ease infinite;
-    color: #41B883;
+    color: #41b883;
   }
 }
 .context h1 {
@@ -238,7 +237,7 @@ a {
   animation-duration: 10s;
 }
 .circles li:nth-child(15) {
-  background: rgba(54, 35, 100, 0.7);
+  background: rgba(54, 35, 100, 0.6);
   left: 55%;
   width: 30px;
   height: 30px;
