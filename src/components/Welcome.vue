@@ -19,7 +19,7 @@
         <h2 class="display-2 font-weight-bold mb-3 welcomeMessage"></h2>
         <!-- Dont  format on save  or other text editor -->
         <vue-typer
-          :text="["Hello World!","Welcome to Yuma Shimizu’s Portfolio","Let’s Mouse down!!"]"
+          :text="['Hello World!','Welcome to Yuma Shimizu’s Portfolio','Let’s Mouse down!!']"
           :repeat="Infinity"
           :shuffle="false"
           initial-action="typing"
